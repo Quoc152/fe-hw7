@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #CDCDCD;
+    font-family: Helvetica;
+}
+
+.content {
+    padding: 73.5px 56.5px 17.5px 46px ;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.bg-teal {
+    background-color: #4FD1C5;
+}
+
+.color-teal {
+    color: #4FD1C5;
+}
+
+.color-gray {
+    color:  #A0AEC0;
+}
+
+.p-11px {
+    padding: 11px;
+}
+
+.p-22 {
+    padding: 22px;
+}
+
+.p-25-5 {
+    padding: 25.5px;
+}
+
+.font-10px {
+    font-size: 10px;
+}
+
+.font-14px {
+    font-size: 14px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color:  #A0AEC0 !important;
+}
+
+.form-check-input:checked {
+    background-color: #4FD1C5;
+    border-color: #4FD1C5;
+}
+
+.custom-btn {
+    background-color: #4FD1C5;
+    border-radius: 12px;
+}
+
+.custom-btn:hover {
+    background-color: #5edacd;
+}
+
+.custom-btn:active {
+    background-color: #40cdbe !important; 
+    border-color: #40cdbe !important;    
+}
